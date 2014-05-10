@@ -1,7 +1,7 @@
 {
   "name": "forevery",
   "description": "forEvery - forEach with promises",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/stevelacy/forevery",
   "repository": {
     "type": "git",
