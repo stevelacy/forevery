@@ -1,0 +1,21 @@
+<html>   
+  <head>
+    <title>Object example</title>
+    <script src="../test/browser/q.js"></script>
+    <script src="../forevery.js"></script>
+  </head>
+  <body>
+  <h1 id="text"></h1>
+    <script>
+      var array = [{data:"test"},{data:"code"}, "test"];
+      array.forEvery(function(k, v, a) {
+        if (v.data) {
+          return console.log(v.data);
+        }
+      }).done(function(data) {
+        data = JSON.stringify(data);
+        document.getElementById('text').innerHTML = data;
+      });
+    </script>
+  </body>
+</html>

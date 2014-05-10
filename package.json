@@ -1,0 +1,41 @@
+{
+  "name": "forevery",
+  "description": "forEvery - forEach with promises",
+  "version": "0.0.1",
+  "homepage": "http://github.com/stevelacy/forevery",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevelacy/forevery.git"
+  },
+  "author": "Steve Lacy me@slacy.me (http://slacy.me)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/main.coffee --reporter spec --require coffee-script/register"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "promise": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.3.1",
+    "gulp": "^3.6.2",
+    "gulp-coffee": "^1.4.3",
+    "gulp-rename": "^1.2.0"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "keywords": [
+    "forevery",
+    "foreach",
+    "for",
+    "promise"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/stevelacy/forevery/raw/master/LICENSE"
+    }
+  ]
+}
