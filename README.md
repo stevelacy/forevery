@@ -151,6 +151,7 @@ Browser:
 ```bash 
 test/browser/index.html
 ```
+Or: [raw-git](https://rawgit.com/stevelacy/forevery/master/test/browser/index.html)
 
 ![](http://imgur.com/h5FXjk4.png)
 
