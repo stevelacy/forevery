@@ -138,6 +138,26 @@ $ gulp
 [forevery.js](https://github.com/stevelacy/forevery/blob/master/forevery.js) will now be built
 
 
+### Tests
+##### Mocha + should.js
+Node and browser testing
+
+Node: 
+```bash
+$ npm test
+```
+
+Browser:
+```bash 
+test/browser/index.html
+```
+
+![](http://imgur.com/h5FXjk4.png)
+
+
+
+
+
 ### LICENSE
 
 (MIT License)
