@@ -1,4 +1,8 @@
 # forEvery
+[![Build Status](https://travis-ci.org/stevelacy/forevery.png?branch=master)](https://travis-ci.org/stevelacy/forevery)
+[![NPM version](https://badge.fury.io/js/forevery.png)](http://badge.fury.io/js/forevery)
+
+
 
 #### forEach loops in Promise notation
 ##### Appends onto Array.prototype with .forEvery
