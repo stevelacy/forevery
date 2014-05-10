@@ -39,6 +39,17 @@ script(src="forevery.js")
 
 ### Examples
 
+Basic `.then()`
+```js
+var array = ["first", "second", "third"];
+array.forEvery(function(key, value, array) {
+  doSomething(value);
+}).then(function(data) {
+  nextFunction();
+});
+```
+
+Basic `.done()`
 ```js
 var array = ["first", "second", "third"];
 array.forEvery(function(key, value, array) {
@@ -46,8 +57,19 @@ array.forEvery(function(key, value, array) {
 }).done(function(data) {
   nextFunction();
 });
+```
+
+Catch error `.catch()`
+```js
+var array = ["first", "second", "third"];
+array.forEvery(function(key, value, array) {
+  doSomething(value);
+}).catch(function(err){
+  doSomethingWith(err);
+});
 
 ```
+#### [Other Examples](https://github.com/stevelacy/forevery/tree/master/examples) including browser usage
 
 ## API
 
@@ -86,6 +108,19 @@ myArray.forEvery(function(k, v){
 }).then(function(data){
   // forEvery function finished - end promise
   // Do something with `data`
+});
+```
+
+#### .catch()
+`Promise`
+
+```js
+array = [];
+myArray.forEvery(function(k, v){
+  array.push(v);
+}).catch(function(err){
+  // forEvery function errored
+  // Do something with `err`
 });
 ```
 
