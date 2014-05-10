@@ -20,9 +20,22 @@
 </table>
 
 ## Usage
+
+#### Node.js
 #### Install
     npm install forevery --save
 
+#### Browser
+Include a src to [forevery.js](https://github.com/stevelacy/forevery/blob/master/forevery.js)
+
+html
+```html
+<script src="forevery.js"></script>
+```
+jade
+```jade
+script(src="forevery.js")
+```
 
 ### Examples
 
