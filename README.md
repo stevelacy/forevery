@@ -163,7 +163,7 @@ Or: [raw-git](https://rawgit.com/stevelacy/forevery/master/test/browser/index.ht
 
 (MIT License)
 
-Copyright (c) 2014 Steve Lacy <me@slacy.me>
+Copyright (c) 2015 Steve Lacy <me@slacy.me>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
