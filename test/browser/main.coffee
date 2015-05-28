@@ -45,4 +45,3 @@ describe "forEvery", () ->
       value.should.equal "1"
 
     done()
-

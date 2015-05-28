@@ -4,8 +4,6 @@ if typeof module isnt "undefined" and typeof module.exports isnt "undefined"
 else
   should = should
 
-
-
 describe "Array.prototype.forEvery", ->
 
   describe "promises", ->
@@ -38,7 +36,7 @@ describe "Array.prototype.forEvery", ->
       pass()
 
   describe "action", ->
-    
+
     it "should have an action function", (pass) ->
       array = ["1", "2", "3", "test"]
       array.forEvery.should.be.an.instanceOf Function
